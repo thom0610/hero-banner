@@ -25,6 +25,8 @@ p {
   font-style: italic;
   font-size: 2rem;
   margin: 0;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
 }
 
 .banner {
@@ -40,7 +42,10 @@ p {
 
 .banner-content {
   max-width: 50em;
+  width: 100%;
   position: absolute;
   padding: 0 1rem;
   bottom: 1rem;
+  left: 50%;
+  transform: translate(-50%);
 }
